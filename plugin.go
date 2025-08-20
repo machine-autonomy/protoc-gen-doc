@@ -68,6 +68,8 @@ func (p *Plugin) Generate(r *plugin_go.CodeGeneratorRequest) (*plugin_go.CodeGen
 	}
 
 	resp.SupportedFeatures = proto.Uint64(SupportedFeatures)
+	resp.MinimumEdition = proto.Int32(900)  // Edition_EDITION_LEGACY
+	resp.MaximumEdition = proto.Int32(1001) // Edition_EDITION_2024
 
 	return resp, nil
 }
