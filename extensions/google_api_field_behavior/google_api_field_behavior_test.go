@@ -3,7 +3,7 @@ package extensions_test
 import (
 	"testing"
 
-	"github.com/pseudomuto/protoc-gen-doc/extensions"
+	"github.com/machine-autonomy/protoc-gen-doc/extensions"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/genproto/googleapis/api/annotations"
 )
