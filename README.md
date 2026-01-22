@@ -1,6 +1,12 @@
 # protoc-gen-doc
 
-[![CI Status][ci-svg]][ci-url]
+# このリポジトリで加えた主な変更
+
+- `field behavior`をドキュメントに残すように修正
+- `edition`のサポート
+
+# 以下はもとのREADME.mdから
+
 [![codecov][codecov-svg]][codecov-url]
 [![GoDoc][godoc-svg]][godoc-url]
 [![Go Report Card][goreport-svg]][goreport-url]
